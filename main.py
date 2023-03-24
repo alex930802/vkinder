@@ -6,8 +6,6 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from random import randrange
 from database import *
 
-token = 'vk1.a.-b2ku4bcWqI9XBaHS6CFiE-V8KaOBHBbO5z6DgVZ6ULuO7U8cHzZSWGC3_jSIqH5YWWeacOb4IkXRiBcI8F56m23wgLNfLt2TupCXiHp3qwyJmeAKNTVQivf3Iqkcawrwb-ZXaN68wGnAKn9sKEoxTwCU7erbPoPGY2Xir__aQs0_J94O6N97zAfBWIHhF2Z0s0KxOZjZmuHNgU-U5zwlQ'
-user_token = 'vk1.a.epL4a24wDeeXMyaa5tEBjQtoM65Tw0fccFri_gLp9hmpjvzfdrouHhzh4Bge4x-fd7zD_v1-BnGtF_vd__cfNWxSRYuXqsA6kUYSE7Ta9WMOivJMT1f3mCtA03Ztu5yxOFcnHmqq8Hvxt-jhAb_DkyDfG8eZfK33dCdfjHeetLOwE9eJVaVB5UWfgt-BVMlGMndX0f29D5CmUlvxzuC-KA&expires_in=86400&user_id=195184223'
 
 class VKBot:
     def __init__(self):
